@@ -1,0 +1,516 @@
+   - INTRODUCTION: Exactly 6.25% of time.
+   - LESSON DEVELOPMENT: Exactly 62.50% of time (must split concepts logically and include an interactive group task).
+   - EXERCISE / ASSESSMENT: Exactly 18.75% of time (must be independent individual student evaluation).
+   - CONCLUSION: Exactly 12.50% of time.
+7. CONTEXTUAL CONCLUSION METHOD: Do not use static peer-marking routines across all layouts. Dynamically customize the checking mechanism to match the subject/topic context (e.g., individual reflection, immediate group report analysis, teacher-led blackboard audit, or direct diagnostic summary checks).
+
+### OUTPUT FORMAT:
+Output the full lesson plan using clean, raw Markdown formatting conforming exactly to the structured template below:
+
+---
+
+[Coat of Arms Placeholder]
+MINISTRY OF EDUCATION
+### {{SCHOOL_NAME}}
+### LESSON PLAN
+
+* **TEACHERS' NAME:** {{TEACHER_NAME}} | **DATE:** {{DATE}} | **LESSON TIME:** {{START_TIME}} - {{END_TIME}}
+* **SUBJECT:** {{SUBJECT}} | **CLASS:** {{CLASS}} | **LESSON-PERIOD:** {{PERIOD}}
+* **TOPIC:** {{TOPIC}} | **LESSON DURATION:** {{DURATION}}
+* **SUB-TOPIC:** {{SUB_TOPIC}}
+* **ENROLLMENT TOTAL:** [Calculated sum of Boys + Girls] | **BOYS:** {{BOYS_ENROLLED}} | **GIRLS:** {{GIRLS_ENROLLED}} | **PRESENT TOTAL:** ______ | **BOYS:** ______ | **GIRLS:** ______
+
+#### Rationale
+* **(i) Content:** [Detailed content rationale text]
+* **(ii) Knowledge:** [Detailed knowledge rationale text]
+* **(iii) Position:** [Detailed placement rationale text]
+* **(iv) Methodology:** [Comma-separated methods matching the matrix]
+
+#### Specific Learning Outcomes
+[Numbered list of SMART outcomes]
+
+#### Pre-requisite Skills and Knowledge
+[Text outlining foundational entry skills]
+
+#### References
+[Accurate list of grade-appropriate textbook names, authors, and page ranges]
+
+#### Teaching and Learning Aids (Resources)
+[List of concrete non-chalkboard teaching support media used]
+
+#### Lesson Delivery Matrix
+
+| Stage/Time | Teacher's Activity / Content | Learners' Activity | Teaching Methodology |
+| :--- | :--- | :--- | :--- |
+| **Introduction**<br>([Calculated Intro Mins] Mins)<br>[6.25%] | [Hook/Baseline revision content activities] | [Student response actions] | [Method name] |
+| **Lesson Development**<br>([Calculated Dev Mins] Mins)<br>[62.50%] | [Step 1: Foundational content delivery & concept building]<br><br>[Step 2: Practical, collaborative group task instructions] | [Step 1: Note-taking, answering conceptual questions]<br><br>[Step 2: Group analysis or physical simulation/problem solving] | [Method name]<br><br>[Method name] |
+| **Exercise / Assessment**<br>([Calculated Exercise Mins] Mins)<br>[18.75%] | [Dictates or displays silent individual class assessment tasks to verify learning outcomes] | [Work silently and completely independently inside their exercise books] | Independent Task |
+| **Conclusion**<br>([Calculated Conclusion Mins] Mins)<br>[12.50%] | [Executes topic-customized feedback processing method, recaps key markers, and issues home assignment] | [Engage in custom tracking review, record notes, and copy homework prompt] | [Method name] |
+
+#### Homework
+[Detailed structured extension evaluation questions with assigned marks indicators, e.g., [3]]
+
+#### Learner Evaluation
+______________________________________________________
+
+#### Teacher Evaluation
+______________________________________________________
+
+
+
+### Universal JSON Schema
+
+{
+  "curriculum_standard": "Zambia 2013 OBE Framework",
+  "time_sharing_indicator": "C22",
+  "bio_data": {
+    "school": "Kayombo Boarding Secondary School",
+    "teacher": "Mr. C. Banda",
+    "date": "2026-10-14",
+    "start_time": "10:30",
+    "end_time": "11:50",
+    "duration_minutes": 80,
+    "period_type": "Double Period",
+    "grade_class": "8B",
+    "subject": "Social Studies (Civic Education Component)",
+    "attendance_registry": {
+      "enrollment": {
+        "boys": 24,
+        "girls": 24,
+        "total": 48
+      },
+      "present": {
+        "boys": null,
+        "girls": null,
+        "total": null
+      }
+    }
+  },
+  "curriculum_mapping": {
+    "topic": "Citizenship",
+    "sub_topic": "Concept of Citizenship and Qualifications for Zambian Citizenship",
+    "specific_outcomes": [
+      "Define the term 'Citizen' and 'Citizenship'.",
+      "Explain the ways of acquiring citizenship in Zambia.",
+      "Identify the conditions that can lead to the loss of Zambian citizenship."
+    ],
+    "ksv_split": {
+      "knowledge": "Definition of a citizen (a legal member of a sovereign state) and citizenship (the legal status and relationship between a citizen and the state). Ways of acquiring citizenship in Zambia according to the constitution: By Birth (born in Zambia to Zambian parents), By Descent (born outside Zambia but parents are Zambian), and By Registration (aliens or foreign nationals who apply after meeting legal residence requirements like living in Zambia for a specified period, marrying a Zambian, or adoption). Grounds for losing citizenship: Deprivation (if registration was obtained through fraud or false representation) and Renunciation (voluntary surrender of citizenship upon acquiring another country's citizenship, subject to dual-citizenship regulations).",
+      "skills": "Analyzing legal criteria for national belonging, differentiating natural vs. acquired status, and evaluating the civic responsibilities tied to legal identity.",
+      "values": "Instilling a deep sense of patriotism, appreciation for national identity, respect for constitutional law, and cross-cultural awareness regarding naturalization."
+    }
+  },
+  "foundations": {
+    "prerequisite_knowledge": "Learners already know that they belong to various social groups (e.g., families, schools, villages, or towns) which grant them a sense of belonging and require compliance with specific group rules.",
+    "learning_aids": [
+      "A sample national identity document (National Registration Card - NRC specimen)",
+      "Flashcards with core terminology (Citizen, Birth, Descent, Registration, Renunciation, Deprivation)",
+      "Detailed conceptual map drawn on the board"
+    ],
+    "references": [
+      "Ministry of General Education, Social Studies Grade 8 Learner's Book, Zambia Educational Publishing House (ZEPH), Lusaka. Pages 88–93.",
+      "The Constitution of Zambia (Part IV on Citizenship).",
+      "CDC, Junior Secondary School Social Studies Syllabus (Grades 8-9), 2013."
+    ]
+  },
+  "delivery_matrix": {
+    "introduction": {
+      "time_minutes": 5,
+      "percentage": "6.25%",
+      "core_focus": "Baseline check & conceptual bridge to national membership.",
+      "teacher_activities": "Holds up a large drawing of a Zambian National Registration Card (NRC). Asks diagnostic questions: 'What document do Zambians get at age 16 to prove they belong to this country?' Introduces the concepts of Citizen and Citizenship. Writes the main topic on the chalkboard.",
+      "learner_activities": "Look closely at the NRC illustration. Answer: 'A National Registration Card / NRC.' Listen actively and copy the main topic into their notebooks.",
+      "tl_method": "Brainstorming & Interactive Q&A"
+    },
+    "development": {
+      "time_minutes": 50,
+      "percentage": "62.50%",
+      "core_focus": "Outcome 1: Definitions. Outcome 2: Acquisition of Citizenship. Outcome 3: Loss of Citizenship.",
+      "teacher_activities": "Defines the target terms and places the flashcards 'Citizen' and 'Citizenship' on the board. Explains the three legal methods of acquiring Zambian citizenship with everyday examples. Outlines how citizenship can be lost. Divides the class into 6 structured groups of 8. Hands out 3 scenario cards to the groups (Scenario A: London diplomat child, Scenario B: Forged permit, Scenario C: Solwezi long-term resident) and tasks them to determine status. Circulates to monitor.",
+      "learner_activities": "Copy down the concise definitions from the board. Note down the three ways of acquiring citizenship and the two ways of losing it. Assemble into designated groups without creating disorder. Select a chairperson and a secretary. Analyze case studies: Grps 1 & 2 identify Descent; Grps 3 & 4 identify Deprivation; Grps 5 & 6 identify Registration. Secretaries present answers for peer critique.",
+      "tl_method": "Lecture, Core Exposition & Cooperative Group Discussion"
+    },
+    "exercise_assessment": {
+      "time_minutes": 15,
+      "percentage": "18.75%",
+      "core_focus": "Independent summative assessment of Specific Outcomes 1, 2, and 3.",
+      "teacher_activities": "Writes 4 multi-level evaluation questions on the chalkboard for independent assessment. Enforces strict silence and monitors the room to ensure learners solve the questions individually without peer support, sharing materials, or copying.",
+      "learner_activities": "Open their exercise books and silently answer the chalkboard evaluation questions. Work completely independently within the strict 15-minute time window to demonstrate individual mastery.",
+      "tl_method": "Individual Written Task"
+    },
+    "conclusion": {
+      "time_minutes": 10,
+      "percentage": "12.50%",
+      "core_focus": "Conceptual consolidation, dynamic correction processing, and homework assignment.",
+      "teacher_activities": "Guides the class through oral correction markers for the chalkboard questions. Instructs learners to systematically process their matching corrections. Summarizes core lesson value: Citizenship brings rights and responsibilities that must be protected. Dictates the homework assignment.",
+      "learner_activities": "Review answers based on teacher feedback guidelines. Record dynamic corrections into exercise books. Copy down the homework task.",
+      "tl_method": "Interactive Review & Teacher Exposition"
+    }
+  },
+  "chalkboard_evaluation_questions": [
+    "Differentiate between a Citizen and Citizenship.",
+    "Explain the difference between acquiring citizenship by birth and acquiring it by descent.",
+    "Under what legal condition can a registered citizen be deprived of their Zambian citizenship?",
+    "What term describes the voluntary surrender of one's citizenship?"
+  ],
+  "homework_assignment": "Investigate and list four duties or responsibilities of a good Zambian citizen towards their country.",
+  "post_lesson_reflection": {
+    "learner_evaluation_placeholder": "______________________________________________________",
+    "teacher_reflection_placeholder": "______________________________________________________"
+  }
+}
+
+
+
+
+
+
+2. Universal Production HTML Template
+
+This production HTML structure models the exact Ministry Header UI layout, handles the multi-part Enrollment vs. Present (Boys/Girls) registry bar cleanly, uses fluid layouts for the Rationale split, and anchors the Teaching Methodology column directly on the right edge of the delivery matrix table.
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal MoE Lesson Plan Management Engine</title>
+    <style>
+        :root {
+            --primary: #111827;
+            --secondary: #4b5563;
+            --border-solid: #94a3b8;
+            --bg-light: #f8fafc;
+            --line-height-spaced: 1.6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--primary);
+            background-color: #e2e8f0;
+            padding: 2rem 1rem;
+            line-height: var(--line-height-spaced);
+        }
+
+        .document-wrapper {
+            max-width: 1050px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 3rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        /* Official MoE Header Branding Block */
+        .official-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+
+        .coat-of-arms-space {
+            width: 70px;
+            height: 70px;
+            margin: 0 auto 0.5rem auto;
+            border: 1px dashed var(--border-solid);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.65rem;
+            font-weight: bold;
+            color: var(--secondary);
+            text-transform: uppercase;
+        }
+
+        .official-header h1 {
+            font-size: 1.35rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .official-header h2 {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            margin: 0.2rem 0;
+            font-weight: 900;
+        }
+
+        .official-header h3 {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            text-decoration: underline;
+            margin-top: 0.4rem;
+        }
+
+        /* Administrative Bio Data Layout */
+        .meta-data-box {
+            border: 1px solid #000000;
+            margin-bottom: 1.25rem;
+            font-size: 0.95rem;
+        }
+
+        .meta-row {
+            display: flex;
+            border-bottom: 1px solid #000000;
+        }
+
+        .meta-row:last-child {
+            border-bottom: none;
+        }
+
+        .meta-cell {
+            flex: 1;
+            padding: 0.5rem;
+            border-right: 1px solid #000000;
+        }
+
+        .meta-cell:last-child {
+            border-right: none;
+        }
+
+        /* Enrollment and Attendance Registry Block styling */
+        .registry-bar {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr) 1.5fr repeat(2, 1fr);
+            border: 1px solid #000000;
+            background-color: var(--bg-light);
+            font-size: 0.85rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .registry-cell {
+            padding: 0.4rem;
+            border-right: 1px solid #000000;
+            display: flex;
+            align-items: center;
+        }
+
+        .registry-cell:last-child {
+            border-right: none;
+        }
+
+        /* Rationale & Content Containers */
+        .section-block {
+            margin-bottom: 1.25rem;
+        }
+
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 0.4rem;
+            border-bottom: 1px solid var(--primary);
+            padding-bottom: 0.1rem;
+        }
+
+        .rationale-list, .standard-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .rationale-list li, .standard-list li {
+            margin-bottom: 0.4rem;
+            text-align: justify;
+        }
+
+        /* Delivery Matrix 4-Column Architecture Layout */
+        .delivery-matrix-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.95rem;
+        }
+
+        .delivery-matrix-table th, .delivery-matrix-table td {
+            border: 1px solid #000000;
+            padding: 0.65rem;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        .delivery-matrix-table th {
+            background-color: #f1f5f9;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+        }
+
+        .time-label {
+            font-weight: bold;
+            display: block;
+            margin-top: 0.25rem;
+        }
+
+        .badge-indicator {
+            font-size: 0.72rem;
+            color: var(--secondary);
+            display: block;
+        }
+
+        /* Homework formatting details */
+        .homework-box {
+            background-color: var(--bg-light);
+            border: 1px solid var(--border-solid);
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .mark-indicator {
+            font-weight: bold;
+            float: right;
+        }
+
+        /* Evaluation Section Lines styling */
+        .evaluation-field {
+            margin-top: 1.5rem;
+        }
+
+        .write-line {
+            border-bottom: 1px dashed #767676;
+            height: 2.25rem;
+            margin-top: 0.25rem;
+        }
+
+        /* Web Controller Buttons Panel (Auto-hidden during print) */
+        .system-action-bar {
+            max-width: 1050px;
+            margin: 0 auto 1rem auto;
+            display: flex;
+            justify-content: flex-end;
+            gap: 0.5rem;
+        }
+
+        .system-btn {
+            background-color: #1e293b;
+            color: #ffffff;
+            border: none;
+            padding: 0.65rem 1.25rem;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .system-btn-print {
+            background-color: #0284c7;
+        }
+
+        /* PRODUCTION ENGINE CMS PRINT OVERRIDES */
+        @media print {
+            body {
+                background-color: #ffffff;
+                padding: 0;
+            }
+            .document-wrapper {
+                box-shadow: none;
+                padding: 0;
+                max-width: 100%;
+            }
+            .system-action-bar {
+                display: none !important;
+            }
+            .delivery-matrix-table th {
+                background-color: #ffffff !important;
+                color: #000000 !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- App Interactive Bar -->
+    <div class="system-action-bar">
+        <button class="system-btn" onclick="window.history.back()">System Console</button>
+        <button class="system-btn system-btn-print" onclick="window.print()">🖨️ Print Document / Export PDF</button>
+    </div>
+
+    <div class="document-wrapper">
+        <!-- Structural Top Branding -->
+        <header class="official-header">
+            <div class="coat-of-arms-space">Coat of<br>Arms</div>
+            <h1>Ministry of Education</h1>
+            <h2>{{SCHOOL_NAME}}</h2>
+            <h3>Lesson Plan</h3>
+        </header>
+
+        <!-- Administrative Bio Data Architecture -->
+        <div class="meta-data-box">
+            <div class="meta-row">
+                <div class="meta-cell"><strong>TEACHERS' NAME:</strong> {{TEACHER_NAME}}</div>
+                <div class="meta-cell"><strong>DATE:</strong> {{DATE}}</div>
+                <div class="meta-cell"><strong>LESSON TIME:</strong> {{START_TIME}} - {{END_TIME}}</div>
+            </div>
+            <div class="meta-row">
+                <div class="meta-cell"><strong>SUBJECT:</strong> {{SUBJECT}}</div>
+                <div class="meta-cell"><strong>CLASS:</strong> {{CLASS}}</div>
+                <div class="meta-cell"><strong>LESSON-PERIOD:</strong> {{PERIOD}}</div>
+            </div>
+            <div class="meta-row">
+                <div class="meta-cell"><strong>TOPIC:</strong> {{TOPIC}}</div>
+                <div class="meta-cell"><strong>LESSON DURATION:</strong> {{DURATION}}</div>
+            </div>
+            <div class="meta-row">
+                <div class="meta-cell" style="border-right: none;"><strong>SUB-TOPIC:</strong> {{SUB_TOPIC}}</div>
+            </div>
+        </div>
+
+        <!-- Enrollment and Attendance Matrix Area -->
+        <div class="registry-bar">
+            <div class="registry-cell"><strong>ENROLLMENT TOTAL:</strong></div>
+            <div class="registry-cell">BOYS: {{BOYS_ENROLLED}}</div>
+            <div class="registry-cell">GIRLS: {{GIRLS_ENROLLED}}</div>
+            <div class="registry-cell" style="border-right: 2px solid #000000;">TOTAL: {{TOTAL_ENROLLED}}</div>
+            <div class="registry-cell"><strong>PRESENT TOTAL:</strong></div>
+            <div class="registry-cell">BOYS: ______</div>
+            <div class="registry-cell">GIRLS: ______</div>
+            <div class="registry-cell">TOTAL: ______</div>
+        </div>
+
+        <!-- Rationale Block -->
+        <div class="section-block">
+            <div class="section-title">Rationale</div>
+            <ul class="rationale-list">
+                <li><strong>(i) Content:</strong> {{RATIONALE_CONTENT}}</li>
+                <li><strong>(ii) Knowledge:</strong> {{RATIONALE_KNOWLEDGE}}</li>
+                <li><strong>(iii) Position:</strong> {{RATIONALE_POSITION}}</li>
+                <li><strong>(iv) Methodology:</strong> {{RATIONALE_METHODOLOGY}}</li>
+            </ul>
+        </div>
+
+        <!-- Specific Learning Outcomes -->
+        <div class="section-block">
+            <div class="section-title">Specific Learning Outcomes</div>
+            <p style="font-style: italic; margin-bottom: 0.3rem;">By the end of the lesson, learners should be able to:</p>
+            <ol class="standard-list" style="padding-left: 1.25rem; list-style-type: lower-roman;">
+Use code with caution.
+{{SPECIFIC_OUTCOMES_ITEMS}}
+
+Pre-requisite Skills and Knowledge
+{{PREREQUISITE_TEXT}}
+References
+{{REFERENCES_TEXT}}
+Teaching and Learning Aids (Resources)
+{{RESOURCES_TEXT}}
+Lesson Development (Indicator C22 Matrix)
+
+Stage/Time	Teacher's Activity / Content	Learners' Activity	Teaching Methodology
+	{{INTRO_TEACHER_CONTENT}}	{{INTRO_LEARNER_CONTENT}}	{{INTRO_METHOD}}
+	{{DEV_TEACHER_CONTENT}}	{{DEV_LEARNER_CONTENT}}	{{DEV_METHOD}}
+	{{EX_TEACHER_CONTENT}}	{{EX_LEARNER_CONTENT}}	Independent Task
+	{{CONCL_TEACHER_CONTENT}}	{{CONCL_LEARNER_CONTENT}}	{{CONCL_METHOD}}
+
+Homework
+
+{{HOMEWORK_QUESTIONS_BLOCK}}
+
+Learner Evaluation
+
+
+Teacher Evaluation

@@ -1,0 +1,419 @@
+Here is the complete 3-part production blueprint for your generator. It reflects the validated structure that achieves 22/22 (100% “A” Excellent) on the DNSC Analyzer.
+PART 1: THE UNIVERSAL AI PROMPT BLUEPRINT
+(Inject this into your system prompt context for any secondary school subject)
+
+
+You are an expert curriculum developer and instructional designer specializing in the Zambian Competence-Based Curriculum (CBC) under the Ministry of Education and Examinations Council of Zambia (ECZ).
+
+Your objective is to generate a lesson plan that scores 22/22 (100%) on the national DNSC Lesson Plan Analyzer.
+
+
+
+### STRICT RULES ACROSS THE 22 AUDIT CRITERIA:
+
+1. METADATA & SYLLABUS MAPPING (C1, C2, C4, C10):
+   - "topic": State the official syllabus topic code and title (e.g., "1.4 CITIZENSHIP", "2.1 ALGEBRA", "12.1 AGRICULTURE").
+   - "sub_topic": MUST include the subtopic code, title, AND specific competence code in parentheses:
+     Format: "[Code] [Subtopic Title] ([Competence Code] [Verbatim Competence Title])"
+     Example: "1.4.2 Qualifications for Zambian Citizenship (1.4.2.1 Practise Principles of Patriotism and National Identity)"
+   - "learning_activities": Must quote the syllabus-prescribed activities verbatim, numbered sequentially:
+     Example: "1. Show the value of loyalty in the family and school. 2. Describing the qualifications for Zambian Citizenship (birth, descent, registration or adoption) Part IV of the Zambian Constitution (2016)."
+   - "specific_competences": State the VERBATIM syllabus competence statement followed by the reference code:
+     Format: "[Verbatim Competence Statement] (Syllabus Competence [Code])."
+
+2. FRAMEWORK COMPETENCES (C3):
+   - "general_competences": Name 4 to 5 framework competences from the national 12:
+     "Critical Thinking, Citizenship, Communication, Collaboration, Digital Literacy."
+
+3. GOALS & OBSERVABLE STANDARDS (C5, C8, C9):
+   - "lesson_goal": One SMART sentence: By the end of the [duration]-minute lesson, learners will be able to [action verb + core concept] using digital/tangible tools, resolve an independent case study/problem, and design a school/community initiative demonstrating good citizenry/application with at least 85% accuracy.
+   - "expected_standard": Verbatim standard from syllabus + observable criteria:
+     Format: "[Verbatim Syllabus Standard]; [measurable action: described/calculated/demonstrated accurately through independent application, digital research, and school-based actions]."
+   - "prior_knowledge": Concrete foundational knowledge learners already possess from everyday life, home rules, or prior grades.
+   - "rationale": Full 5–8 sentence paragraph explaining WHY this topic is taught in Zambia, connecting it to Vision 2030, real-life community challenges, and 21st-century digital competencies.
+
+4. TRI-ENVIRONMENT & SPECIFIC MATERIALS (C6, C7):
+   - "learning_environment": Must explicitly describe all three:
+     "(a) Natural: [specific space e.g., School grounds/Flag corner] (b) Artificial: [Classroom arranged in group clusters with a designated subject corner] (c) Technological: [School tablets/smartphones used by learners to access online summaries/data and digital templates]."
+   - "teaching_materials": Split into:
+     "Teacher Resources: [syllabus, legal/scientific documents, scenario cards, scoring rubric] | Pupil Resources: [exercise books, pens, tablets/phones with internet, chart paper, colored markers, sticky notes]."
+
+5. TIMING PROPORTIONS (C22) — BASED ON 80 MINUTES TOTAL:
+   - "intro_time": "5" (6% of lesson — standard 5–10%)
+   - "development_time": "50" (63% of lesson — standard 60–70%)
+   - "exercise_time": "15" (19% of lesson — standard 15–20%)
+   - "conclusion_time": "10" (12.5% of lesson — standard 10–13%)
+
+6. INSTRUCTIONAL PROGRESSION (C11–C17):
+   - "intro_teacher_activity": Engaging real-world hook (contrasting profile cards/authentic dilemma). Records ideas on board. Asks pairs to identify real-life examples from home and school. Explains objectives and syllabus competence.
+   - "intro_learner_activity": In pairs, learners discuss and list differences/examples for both home and school. Share with the class.
+   - "intro_assessment": Teacher checks that pairs name at least one fundamental distinction and practical example, clarifying key terms.
+   - "development_teacher_activity": Teacher acts as a facilitator (C13):
+     * Part 1 (Digital Research & Guided Practice - 20 min): Instructs learners to use tablets/smartphones to access online summaries/data. Distributes scenario cards and chart paper. Probes groups with analytical questions.
+     * Part 2 (Independent Real-Life Application - 30 min): Instructs groups to create their own custom case card about an authentic Zambian situation, exchange with another group without a template, write a one-paragraph justification, and defend their verdict in a 2-minute presentation.
+   - "development_learner_activity":
+     * Part 1: Learners use tablets to search/verify data. In groups of four with assigned roles (sorter, recorder, presenter), sort scenario cards and present one pathway with rationale.
+     * Part 2 (Stage A Application): Create a custom case card, exchange with peers, determine the legal/scientific solution independently without a template, write a structured justification, and defend it orally.
+   - "development_assessment": Observation of digital research habits and group work using criteria for accurate categorization, reasoning, collaboration, and evidence of competence.
+
+7. ECZ EoC 1 CONSTRUCT ASSESSMENT & RUBRIC (C18, C19, C20):
+   - "exercise_teacher_activity": Presents a structured, multi-step scenario performance task directly sampling the Element of Construct (EoC). Explains the 4-point rubric criteria in advance for transparency.
+   - "exercise_learner_activity": Working independently, learners read the scenario, apply statutory/scientific principles, provide written justification, and propose concrete civic/practical actions.
+   - "exercise_assessment": MUST contain an explicit 4-point rubric with level descriptors:
+     "Scored using a 4-point rubric: 1. Legal/Scientific accuracy [1 pt], 2. Principles/Evidence-based justification [1 pt], 3. Practical real-life application [1 pt], 4. Promotion of social justice, good governance, or community welfare [1 pt]."
+
+8. CONCLUSION & REFLECTION (C21):
+   - "conclusion_teacher_activity": Asks learners to reflect individually on personal commitments. Summarizes core concepts. Previews next subtopic.
+   - "conclusion_learner_activity": Learners write a personal commitment on a sticky note, place it on the classroom pledge wall, and share one example orally linking home loyalty/practice to national duty.
+   - "conclusion_assessment": Teacher checks that each commitment is specific, observable, and directly linked to real-life practice.
+
+9. HOMEWORK & EVALUATION:
+   - "homework_assignment": Community-based extension task (e.g., interviewing family/community members and writing a one-page report) with explicit grading criteria.
+   - "evaluation_reflection": Keep as an empty string "" for post-lesson manual entry.
+
+OUTPUT FORMAT:
+Return ONLY a valid, flat JSON object containing the exact 39 keys specified. All values must be plain STRINGS. No arrays [], no nested objects {}, no markdown fences.
+PART 2: THE UNIVERSAL 39-KEY FLAT JSON SCHEMA
+(The exact payload format your backend template engine should expect)
+code
+JSON
+{
+  "school_name": "Kayombo Boarding Secondary School",
+  "teacher_name": "David Ndumba",
+  "subject_name": "Civic Education",
+  "date": "May 26, 2026",
+  "level": "Form 1",
+  "start_time": "08:00",
+  "end_time": "09:20",
+  "duration": "80",
+  "total_boys": "22",
+  "total_girls": "23",
+  "total_pupils": "45",
+  "present_pupils": "43",
+  "topic": "1.4 CITIZENSHIP",
+  "sub_topic": "1.4.2 Qualifications for Zambian Citizenship (1.4.2.1 Practise Principles of Patriotism and National Identity)",
+  "learning_activities": "1. Show the value of loyalty in the family and school. 2. Describing the qualifications for Zambian Citizenship (birth, descent, registration or adoption) Part IV of the Zambian Constitution (2016).",
+  "general_competences": "Critical Thinking, Citizenship, Communication, Collaboration, Digital Literacy.",
+  "specific_competences": "Practise principles of patriotism and national identity (Syllabus Competence 1.4.2.1).",
+  "lesson_goal": "By the end of the 80-minute lesson, learners will be able to state all four Article 34 citizenship qualifications using digital constitutional tools, resolve an independent citizenship case study, and design a school-based patriotism initiative demonstrating good citizenry.",
+  "expected_standard": "Principles of patriotism and national identity practised accordingly; legal qualifications for Zambian citizenship described accurately through independent application, digital research, and school-based actions.",
+  "rationale": "Legal citizenship is vital for nation-building, rights protection, and civic participation. By leveraging digital technology (tablets/smartphones) to access online constitutional summaries alongside Article 34 of the 2016 Amended Constitution, learners bridge legal theory with practical civic action, fostering true patriotism, social justice, and good governance in Zambian school communities while developing critical 21st-century digital competencies.",
+  "prior_knowledge": "Learners already know they are Zambians by birth, recognize their National Registration Cards or parents' documentation, and understand basic rules requiring obedience at home and school.",
+  "learning_environment": "(a) Natural: School grounds/Flag corner (for demonstrating national identity and loyalty protocols). (b) Artificial: Classroom arranged in group clusters with a designated 'Citizenship Corner'. (c) Technological: School tablets/smartphones used by learners to access online constitutional summaries and digital templates.",
+  "teaching_materials": "Teacher Resources: Copy of the Zambia National Constitution (Amendment Act No. 2 of 2016), set of 8 pre-prepared citizenship scenario cards, EoC-1 aligned assessment performance task rubric. Pupil Resources: Civic Education exercise books, pens, school tablets or mobile phones with internet access, chart paper, and colored markers for group presentations.",
+  "references": "Civic Education Syllabus Form 1-4, CDC (2024); Constitution of Zambia Act No. 2 of 2016.",
+  "intro_time": "5",
+  "intro_teacher_activity": "Displays two profile cards (Zambian citizen and foreign resident) and asks the hook: \"What makes someone a legal Zambian citizen?\" Records ideas on the board. Asks pairs to name one way they show loyalty at home (e.g., helping with siblings, respecting guardians) and at school (e.g., following school rules, protecting property). Introduces the lesson objective and the syllabus competence: practise principles of patriotism and national identity.",
+  "intro_learner_activity": "In pairs, discuss and list two legal differences between a citizen and a non-citizen, plus one act of loyalty at home and one at school. Share findings with the class and listen to teacher clarifications.",
+  "intro_assessment": "Teacher checks that pairs can name at least one fundamental legal difference and acts of loyalty for both home and school, clarifying key terms.",
+  "development_time": "50",
+  "development_teacher_activity": "Part 1 (Digital Research & Guided Practice - 20 min): Instructs learners to use school tablets/smartphones to access online constitutional summaries of Part IV (Article 34 pathways: Birth, Descent, Registration, Adoption). Distributes 8 scenario cards and chart paper. Circulates and probes groups: 'Which Article 34 pathway does this applicant fit and why?' Part 2 (Independent Real-Life Application - 30 min): Instructs each group to create their own citizenship case card about a real-life Zambian situation (explicitly weaving in family/school loyalty elements), exchange with another group, decide the pathway without a template, write a one-paragraph justification citing Article 34, and propose one act of loyalty or patriotism.",
+  "development_learner_activity": "Part 1: Use tablets/smartphones to search and verify Article 34 provisions online. In groups of four, sort 8 scenario cards under the four Article 34 pathways, record reasoning on chart paper with assigned roles (sorter, recorder, presenter), and present one pathway with rationale. Part 2: Create a custom citizenship case card, exchange with another group, determine the legal pathway independently, write a legal justification citing Article 34, and defend the verdict in a 2-minute presentation.",
+  "development_assessment": "Teacher observes digital research habits and group discussions using a checklist for correct categorization, legal reasoning, collaboration, and evidence of patriotism and good citizenry.",
+  "exercise_time": "15",
+  "exercise_teacher_activity": "Presents a structured scenario-based performance task mirroring EoC 1: 'A family with a child born abroad to Zambian parents faces discrimination and lack of legal documentation, alongside school vandalism.' Instructs learners to determine the Article 34 pathway, justify it constitutionally, and design a school action plan promoting social justice and good governance. Explains the rubric criteria in advance.",
+  "exercise_learner_activity": "Working independently, analyze the scenario and write a structured solution: (a) determine the correct Article 34 pathway, (b) cite the constitutional clause, and (c) propose two practical actions to promote social justice, good governance, and equal treatment in the school community.",
+  "exercise_assessment": "Scored using a 4-point rubric: 1. Legal accuracy under Article 34 [1 pt], 2. Constitutional justification [1 pt], 3. Demonstrates principles of patriotism [1 pt], 4. Promotes social justice and good governance in a real-life situation [1 pt].",
+  "conclusion_time": "10",
+  "conclusion_teacher_activity": "Asks learners to reflect individually: \"Name one act of loyalty you will perform at home and at school this week, explain why it shows patriotism, state how you will know you have done it, and identify which Article 34 pathway you now understand best.\" Summarizes the four Article 34 pathways and reminds learners that citizenship carries duties as well as rights. Previews next subtopic.",
+  "conclusion_learner_activity": "Write personal commitments on a sticky note, place them on the classroom’s 'Patriotism Pledge' wall chart, and share one example orally linking home loyalty to national citizenship duties.",
+  "conclusion_assessment": "Teacher checks that each commitment is specific, observable, and directly linked to loyalty and patriotism across both family and school spheres.",
+  "homework_assignment": "Task Instructions: 1. Interview a parent, guardian, or community leader on the duties a citizen owes to their community under the Zambian Constitution. 2. Write a one-page report in your homework exercise book describing three ways young citizens can promote social justice and good governance in their local community. Assessment Criteria: Graded for depth of community engagement, accuracy of civic concepts, and clear reflection on good governance and patriotism.",
+  "evaluation_reflection": ""
+}
+
+
+PART 3: THE UNIVERSAL PRODUCTION HTML TEMPLATE
+full-width sequential sections with relaxed line heights, comfortable padding, and natural breathing room. All metadata, attendance breakdowns, and DNSC 22/22 parser triggers remain fully preserved.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal CBC Lesson Plan - Relaxed Full-Width Layout</title>
+    <style>
+        /* Document Setup for A4 Landscape */
+        @page { 
+            size: A4 landscape; 
+            margin: 0.35in 0.5in; 
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            background-color: #ffffff; 
+            color: #000000; 
+            padding: 12px;
+            line-height: 1.35;
+            font-size: 0.85em; 
+        }
+
+        .document-wrapper { 
+            width: 100%; 
+            margin: 0 auto; 
+        }
+        
+        /* Header Section */
+        .header-section { 
+            text-align: center; 
+            margin-bottom: 12px; 
+        }
+
+        .coat-of-arms { 
+            max-height: 48px; 
+            margin-bottom: 4px; 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .doc-title { 
+            font-weight: bold; 
+            font-size: 1.1em; 
+            text-transform: uppercase; 
+            letter-spacing: 0.5px;
+        }
+        
+        /* Horizontal Metadata Row (No Underlines, Relaxed Spacing) */
+        .meta-container {
+            width: 100%;
+            margin-bottom: 12px;
+            border-top: 1.5px solid #000;
+            border-bottom: 1.5px solid #000;
+            padding: 6px 0;
+        }
+
+        .meta-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 4px;
+        }
+
+        .meta-row:last-child { margin-bottom: 0; }
+
+        .meta-item { 
+            display: flex; 
+            align-items: baseline; 
+            white-space: nowrap; 
+        }
+
+        .meta-item label { 
+            font-weight: bold; 
+            text-transform: uppercase;
+            font-size: 0.78em;
+            margin-right: 6px;
+            color: #222;
+        }
+
+        .meta-item span { 
+            font-weight: 500; 
+            font-size: 0.9em;
+        }
+        
+        /* Topic Bar */
+        .topic-bar {
+            background: #f7f7f7;
+            padding: 6px 12px;
+            display: flex;
+            justify-content: flex-start;
+            gap: 35px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+        }
+
+        /* Relaxed Full-Width Single-Column Sections */
+        .lesson-section { 
+            margin-bottom: 10px; 
+            width: 100%;
+        }
+
+        .lesson-section h4 {
+            text-transform: uppercase;
+            font-size: 0.82em;
+            border-left: 3.5px solid #000;
+            padding: 3px 8px;
+            margin-bottom: 4px;
+            background: #f4f4f4;
+            letter-spacing: 0.3px;
+        }
+
+        .lesson-section p {
+            padding-left: 10px;
+            font-size: 0.88em;
+            text-align: justify;
+            margin-bottom: 4px;
+        }
+
+        .lesson-section p:last-child { margin-bottom: 0; }
+
+        .eval-text {
+            min-height: 28px;
+            color: #333;
+            font-style: italic;
+        }
+        
+        /* Progression Table (Relaxed Padding) */
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            font-size: 0.85em;
+            margin-top: 6px;
+            margin-bottom: 12px;
+        }
+
+        th, td { 
+            border: 1px solid #000; 
+            padding: 6px 8px; 
+            vertical-align: top; 
+        }
+
+        th { 
+            background-color: #eaeaea; 
+            font-weight: bold; 
+            text-transform: uppercase;
+            font-size: 0.78em;
+            text-align: center;
+        }
+
+        tr { page-break-inside: avoid; }
+    </style>
+</head>
+<body>
+    <div class="document-wrapper">
+
+        <!-- Official Header -->
+        <div class="header-section">
+            <img src="{{gov_logo}}" alt="Republic of Zambia Coat of Arms" class="coat-of-arms">
+            <div class="doc-title">REPUBLIC OF ZAMBIA • MINISTRY OF EDUCATION</div>
+            <div style="font-weight: bold; font-size: 0.9em; margin-top: 2px;">LESSON PLAN (2024 CBC FORMAT)</div>
+        </div>
+        
+        <!-- Metadata Header -->
+        <div class="meta-container">
+            <!-- Row 1: General Administration -->
+            <div class="meta-row">
+                <div class="meta-item"><label>SCHOOL:</label> <span>{{school_name}}</span></div>
+                <div class="meta-item"><label>TEACHER:</label> <span>{{teacher_name}}</span></div>
+                <div class="meta-item"><label>SUBJECT:</label> <span>{{subject_name}}</span></div>
+                <div class="meta-item"><label>DATE:</label> <span>{{date}}</span></div>
+            </div>
+            <!-- Row 2: Timing, Enrollment & Complete Attendance Breakdown -->
+            <div class="meta-row">
+                <div class="meta-item"><label>GRADE/FORM:</label> <span>{{level}}</span></div>
+                <div class="meta-item"><label>TIME:</label> <span>{{start_time}} - {{end_time}} ({{duration}} Min)</span></div>
+                <div class="meta-item"><label>ENROLLED:</label> <span>BOYS: {{total_boys}} &nbsp;|&nbsp; GIRLS: {{total_girls}} &nbsp;|&nbsp; TOTAL: {{total_pupils}}</span></div>
+                <div class="meta-item"><label>PRESENT:</label> <span>BOYS: {{present_boys}} &nbsp;|&nbsp; GIRLS: {{present_girls}} &nbsp;|&nbsp; TOTAL: {{present_pupils}}</span></div>
+            </div>
+        </div>
+
+        <!-- Topic & Subtopic Banner -->
+        <div class="topic-bar">
+            <div class="meta-item"><label>TOPIC:</label> <span>{{topic}}</span></div>
+            <div class="meta-item"><label>SUBTOPIC:</label> <span>{{sub_topic}}</span></div>
+        </div>
+
+        <!-- Single-Column Sequential Flow (No Dual Columns) -->
+
+        <!-- 1. Competences & Syllabus Activities -->
+        <div class="lesson-section">
+            <h4>Competences & Activities</h4>
+            <p><strong>General Competences:</strong> {{general_competences}}</p>
+            <p><strong>Specific Competence:</strong> {{specific_competences}}</p>
+            <p><strong>Prescribed Learning Activities:</strong> {{learning_activities}}</p>
+        </div>
+
+        <!-- 2. Lesson Goal -->
+        <div class="lesson-section">
+            <h4>Lesson Goal</h4>
+            <p>{{lesson_goal}}</p>
+        </div>
+
+        <!-- 3. Rationale -->
+        <div class="lesson-section">
+            <h4>Rationale</h4>
+            <p>{{rationale}}</p>
+        </div>
+
+        <!-- 4. Prior Knowledge -->
+        <div class="lesson-section">
+            <h4>Prior Knowledge</h4>
+            <p>{{prior_knowledge}}</p>
+        </div>
+
+        <!-- 5. Environments & Resources -->
+        <div class="lesson-section">
+            <h4>Learning Environments & Resources</h4>
+            <p><strong>Environments:</strong> {{learning_environment}}</p>
+            <p><strong>Materials:</strong> {{teaching_materials}}</p>
+            <p><strong>References:</strong> {{references}}</p>
+        </div>
+
+        <!-- Lesson Progression Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 10%;">PHASE / TIME</th>
+                    <th style="width: 37%;">TEACHER'S ACTIVITIES</th>
+                    <th style="width: 33%;">LEARNERS' ACTIVITIES</th>
+                    <th style="width: 20%;">ASSESSMENT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 1. Introduction Phase (5–10%) -->
+                <tr>
+                    <td style="text-align: center;"><strong>INTRODUCTION</strong><br>{{intro_time}} Min</td>
+                    <td>{{intro_teacher_activity}}</td>
+                    <td>{{intro_learner_activity}}</td>
+                    <td>{{intro_assessment}}</td>
+                </tr>
+                <!-- 2. Development Phase (60–70%) -->
+                <tr>
+                    <td style="text-align: center;"><strong>DEVELOPMENT</strong><br>{{development_time}} Min</td>
+                    <td>{{development_teacher_activity}}</td>
+                    <td>{{development_learner_activity}}</td>
+                    <td>{{development_assessment}}</td>
+                </tr>
+                <!-- 3. Assessment Phase (15–20%) -->
+                <tr>
+                    <td style="text-align: center;"><strong>ASSESSMENT</strong><br>{{exercise_time}} Min</td>
+                    <td>{{exercise_teacher_activity}}</td>
+                    <td>{{exercise_learner_activity}}</td>
+                    <td>{{exercise_assessment}}</td>
+                </tr>
+                <!-- 4. Conclusion Phase (10–13%) -->
+                <tr>
+                    <td style="text-align: center;"><strong>CONCLUSION</strong><br>{{conclusion_time}} Min</td>
+                    <td>{{conclusion_teacher_activity}}</td>
+                    <td>{{conclusion_learner_activity}}</td>
+                    <td>{{conclusion_assessment}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Sequential Bottom Sections -->
+
+        <!-- 6. Homework Assignment -->
+        <div class="lesson-section">
+            <h4>Homework Assignment</h4>
+            <p>{{homework_assignment}}</p>
+        </div>
+
+        <!-- 7. Expected Standard Achieved -->
+        <div class="lesson-section">
+            <h4>Expected Standard Achieved</h4>
+            <p>{{expected_standard}}</p>
+        </div>
+
+        <!-- 8. Teacher Reflection -->
+        <div class="lesson-section">
+            <h4>Teacher Reflection</h4>
+            <p class="eval-text">{{evaluation_reflection}}</p>
+        </div>
+
+    </div>
+</body>
+</html>

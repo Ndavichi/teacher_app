@@ -1,0 +1,5 @@
+[2026-09-27T23:11:32.695Z] INFO database connected {"database":"my_file","host":"localhost"}
+[2026-09-27T23:11:32.744Z] INFO redis available
+[2026-09-27T23:11:32.758Z] INFO API listening on http://localhost:4001 {"env":"development"}
+[0mGET /api/health [32m200[0m 4.227 ms - 85[0m
+[0mGET / [33m404[0m 1.160 ms - 52[0m

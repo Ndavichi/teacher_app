@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+/legacy-php/vendor/
+
+# Environment
+.env
+**/.env
+!**/.env.example
+
+# Build output
+server/dist/
+client/dist/
+*.tsbuildinfo
+
+# Legacy runtime artifacts
+/legacy-php/logs/
+/legacy-php/uploads/
+/legacy-php/curricular_docs/.cache/
+/legacy-php/cache/
+
+# Runtime output for the new stack
+/server/uploads/
+/server/logs/
+/cache/
+
+# Misc
+*.zip
+*.bak
+*.log
+.DS_Store
+Thumbs.db
+nul

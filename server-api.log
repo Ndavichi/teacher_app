@@ -1,0 +1,17 @@
+
+> teachertools@2.0.0 dev:server
+> npm run dev -w server
+
+
+> @teachertools/server@2.0.0 dev
+> tsx src/index.ts
+
+[2026-09-19T09:44:49.454Z] INFO database connected {"database":"my_file","host":"localhost"}
+[2026-09-19T09:44:49.534Z] INFO redis available
+[2026-09-19T09:44:49.556Z] INFO API listening on http://localhost:4000 {"env":"development"}
+[0mGET /api/portal/documents/lesson/131/print [33m404[0m 31.047 ms - 68[0m
+[0mGET /api/portal/lessons?search=&sort=created_at&dir=desc&page=1&page_size=10 [32m200[0m 13.031 ms - 63[0m
+[0mGET /api/portal/subjects [32m200[0m 12.271 ms - 1175[0m
+[0mGET /api/portal/frameworks [32m200[0m 18.351 ms - 391[0m
+[0mGET /api/portal/schemes?search=&sort=created_at&dir=desc&page=1&page_size=10 [32m200[0m 12.066 ms - 617[0m
+[0mGET /api/portal/schemes/scheme-1789734585757 [32m200[0m 20.763 ms - 40521[0m

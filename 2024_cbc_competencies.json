@@ -1,0 +1,843 @@
+{
+  "2024_cbc_competencies": [
+    {
+      "id": 1,
+      "competence": "Analytical Thinking",
+      "descriptors": [
+        "Analyse Zambia's political development from 1890 to date",
+        "Analyse factors that hinder good citizenship",
+        "Examine functions of Local Government",
+        "Evaluate political systems in Zambia"
+      ]
+    },
+    {
+      "id": 2,
+      "competence": "Citizenship",
+      "descriptors": [
+        "Show importance of symbols of National Identity",
+        "Demonstrate understanding of Civic Education",
+        "Practise principles of patriotism and national identity",
+        "Promote social justice",
+        "Demonstrate understanding of citizenship",
+        "Demonstrate understanding of the relationship between Central Government and Local Government",
+        "Apply knowledge of governance in real life situations",
+        "Demonstrate understanding of the role of traditional rulers in the governance of the country",
+        "Demonstrate understanding of one's rights, duties and responsibilities as a Zambia citizen",
+        "Engage fully in civic activities",
+        "Distinguish characteristics of good governance from bad governance",
+        "Analyse structure and organization of a political party"
+      ]
+    },
+    {
+      "id": 3,
+      "competence": "Collaboration",
+      "descriptors": [
+        "Build stronger relationship to achieve common goals"
+      ]
+    },
+    {
+      "id": 4,
+      "competence": "Communication",
+      "descriptors": []
+    },
+    {
+      "id": 5,
+      "competence": "Creativity and Innovation",
+      "descriptors": [
+        "Create a business plan",
+        "Adapt to changing business environment"
+      ]
+    },
+    {
+      "id": 6,
+      "competence": "Critical Thinking",
+      "descriptors": []
+    },
+    {
+      "id": 7,
+      "competence": "Digital",
+      "descriptors": []
+    },
+    {
+      "id": 8,
+      "competence": "Emotional Intelligence",
+      "descriptors": []
+    },
+    {
+      "id": 9,
+      "competence": "Entrepreneurship",
+      "descriptors": [
+        "Create a business plan",
+        "Adapt to changing business environment"
+      ]
+    },
+    {
+      "id": 10,
+      "competence": "Environmental Sustainability",
+      "descriptors": [
+        "Care for the environment."
+      ]
+    },
+    {
+      "id": 11,
+      "competence": "Financial Education",
+      "descriptors": [
+        "Practise different ways of saving",
+        "Show the importance of money",
+        "Exhibit personal financial management",
+        "Demonstrate understanding of risk management"
+      ]
+    },
+    {
+      "id": 12,
+      "competence": "Problem Solving",
+      "descriptors": []
+    }
+  ]
+}
+
+
+{
+  "2024_cbc_subject": "Information and Communication Technology (ICT)",
+  "framework_standard": "Zambia Education Curriculum Framework 2024",
+  "key_competencies": [
+    {
+      "competence": "Analytical Thinking",
+      "descriptors": [
+        "Ability to break down complex ICT problems into smaller components, interpret data, and make informed decisions based on evidence."
+      ]
+    },
+    {
+      "competence": "Communication",
+      "descriptors": [
+        "Use ICT tools and platforms to effectively share information, ideas, and solutions through various digital mediums, ensuring clarity and coherence."
+      ]
+    },
+    {
+      "competence": "Collaboration",
+      "descriptors": [
+        "Work effectively in teams using digital collaboration tools, contributing to shared goals while respecting diverse perspectives."
+      ]
+    },
+    {
+      "competence": "Creativity and Innovation",
+      "descriptors": [
+        "Develop innovative solutions to real-world problems by leveraging ICT tools, and creatively apply technology to design new products or services."
+      ]
+    },
+    {
+      "competence": "Critical Thinking",
+      "descriptors": [
+        "Evaluate information critically from multiple sources, analyse technological solutions, and assess their impact on society and personal life."
+      ]
+    },
+    {
+      "competence": "Digital Literacy",
+      "descriptors": [
+        "Demonstrate proficiency in using digital devices, software, and the internet responsibly, securely, and ethically for academic and professional purposes."
+      ]
+    },
+    {
+      "competence": "Entrepreneurship",
+      "descriptors": [
+        "Use ICT to identify business opportunities, create digital business models, and manage online platforms for entrepreneurial ventures."
+      ]
+    },
+    {
+      "competence": "Environmental Sustainability",
+      "descriptors": [
+        "Utilize ICT tools to promote sustainable practices, reduce electronic waste, and advocate for environmentally responsible technology usage."
+      ]
+    },
+    {
+      "competence": "Financial Education",
+      "descriptors": [
+        "Apply ICT in managing personal and business finances, including budgeting, digital banking, and understanding financial tools and risks in online transactions."
+      ]
+    },
+    {
+      "competence": "Problem Solving",
+      "descriptors": [
+        "Identify challenges in ICT systems or applications and develop practical, efficient, and innovative solutions using technology."
+      ]
+    },
+    {
+      "competence": "Citizenship",
+      "descriptors": [
+        "Demonstrate responsible use of technology as a digital citizen, adhering to ethical standards, online etiquette, and respecting cultural diversity."
+      ]
+    },
+    {
+      "competence": "Emotional Intelligence",
+      "descriptors": [
+        "Use ICT to manage emotions and relationships effectively, including tools for self-awareness, empathy, and constructive communication in digital environments."
+      ]
+    }
+  ]
+}
+
+
+{
+  "2024_cbc_subject": "Physics",
+  "framework_standard": "Zambia Education Curriculum Framework 2024",
+  "key_competencies": [
+    {
+      "id": 1,
+      "competence": "Analytical Thinking",
+      "descriptors": [
+        "Analyse experimental data and graphs representing motion, forces, and electrical characteristics",
+        "Analyse vector components to interpret physical phenomena and mechanical equilibrium",
+        "Examine the mathematical relationships governing thermodynamics and wave propagation",
+        "Evaluate experimental error margins and discrepancies between theoretical laws and practical results"
+      ]
+    },
+    {
+      "id": 2,
+      "competence": "Citizenship",
+      "descriptors": [
+        "Adhere strictly to national and institutional laboratory safety regulations",
+        "Demonstrate responsibility in managing and reporting hazardous physical substances or radioactive materials",
+        "Promote scientific literacy and dispel common physical misconceptions within the local community"
+      ]
+    },
+    {
+      "id": 3,
+      "competence": "Collaboration",
+      "descriptors": [
+        "Cooperate effectively in laboratory teams during complex practical investigations",
+        "Distribute roles efficiently (e.g., recorder, operator, timekeeper) to execute accurate physical measurements"
+      ]
+    },
+    {
+      "id": 4,
+      "competence": "Communication",
+      "descriptors": [
+        "Represent physical data accurately using standard international (SI) units, formulas, and vector diagrams",
+        "Present experimental hypotheses, methodologies, and conclusions clearly to scientific peers"
+      ]
+    },
+    {
+      "id": 5,
+      "competence": "Creativity and Innovation",
+      "descriptors": [
+        "Design alternative or low-cost apparatus to demonstrate physical principles (e.g., pendulums, circuits)",
+        "Innovate functional models applying electromagnetic or mechanical principles to solve practical challenges"
+      ]
+    },
+    {
+      "id": 6,
+      "competence": "Critical Thinking",
+      "descriptors": [
+        "Evaluate the validity of physical assumptions made in idealized theoretical models",
+        "Critique experimental designs to isolate and minimize systematic and random errors"
+      ]
+    },
+    {
+      "id": 7,
+      "competence": "Digital",
+      "descriptors": [
+        "Utilize computer-based sensors, data loggers, and digital multimeters in physics experiments",
+        "Employ interactive simulations (e.g., virtual optics or circuit builders) to visualize microscopic or abstract forces"
+      ]
+    },
+    {
+      "id": 8,
+      "competence": "Emotional Intelligence",
+      "descriptors": [
+        "Maintain patience and resilience when troubleshooting intricate experimental setups or repeated failed trials"
+      ]
+    },
+    {
+      "id": 9,
+      "competence": "Entrepreneurship",
+      "descriptors": [
+        "Assess the economic viability and efficiency ratings of newly designed mechanical or thermal devices",
+        "Develop market-ready solutions for energy conservation tools or localized gadget repairs"
+      ]
+    },
+    {
+      "id": 10,
+      "competence": "Environmental Sustainability",
+      "descriptors": [
+        "Investigate and promote renewable energy conversion systems (solar, hydro, wind power)",
+        "Calculate and optimize thermal insulation and energy efficiency profiles to reduce carbon footprints"
+      ]
+    },
+    {
+      "id": 11,
+      "competence": "Financial Education",
+      "descriptors": [
+        "Calculate domestic electrical power consumption costs using kilowatt-hour (kWh) utility tariffs",
+        "Assess cost-benefit ratios when comparing energy-saving appliances versus standard electrical loads"
+      ]
+    },
+    {
+      "id": 12,
+      "competence": "Problem Solving",
+      "descriptors": [
+        "Apply physical laws systematically to solve complex quantitative and qualitative problems",
+        "Diagnose and correct faults in experimental circuits, mechanical linkages, or optical benches"
+      ]
+    }
+  ]
+}
+
+
+{
+  "2024_cbc_subject": "Design and Technology",
+  "framework_standard": "Zambia Education Curriculum Framework 2024",
+  "key_competencies": [
+    {
+      "id": 1,
+      "competence": "Analytical Thinking",
+      "descriptors": [
+        "Analyse design briefs to extract exact technical requirements and product constraints",
+        "Analyse the material properties of wood, metals, and plastics to determine project manufacturing suitability",
+        "Examine mechanisms, linkages, and structural forces to understand operational engineering workflows",
+        "Evaluate existing commercial products to critique ergonomics, materials, and assembly efficiency"
+      ]
+    },
+    {
+      "id": 2,
+      "competence": "Citizenship",
+      "descriptors": [
+        "Adhere strictly to workshop safety guidelines, machinery regulations, and protective wear protocols",
+        "Demonstrate high accountability in managing shared community workshop tools and equipment infrastructure",
+        "Apply universal design standards to create inclusive products accessible to people with disabilities"
+      ]
+    },
+    {
+      "id": 3,
+      "competence": "Collaboration",
+      "descriptors": [
+        "Work productively within a design matrix team to manufacture prototype assemblies",
+        "Coordinate workshop production steps efficiently with peers to achieve high quality and meet project timelines"
+      ]
+    },
+    {
+      "id": 4,
+      "competence": "Communication",
+      "descriptors": [
+        "Generate technical drawings conforming to international standards using orthographic and isometric projections",
+        "Present design folios, material specifications, and mockups clearly to prospective users or clients"
+      ]
+    },
+    {
+      "id": 5,
+      "competence": "Creativity and Innovation",
+      "descriptors": [
+        "Generate innovative design ideas, sketches, and prototypes to solve specialized consumer needs",
+        "Adapt engineering designs creatively to solve localized manufacturing resource shortages"
+      ]
+    },
+    {
+      "id": 6,
+      "competence": "Critical Thinking",
+      "descriptors": [
+        "Evaluate the structural trade-offs between material cost, product weight, and structural durability",
+        "Critique prototype test data systematically to find flaws in design or manufacturing quality"
+      ]
+    },
+    {
+      "id": 7,
+      "competence": "Digital",
+      "descriptors": [
+        "Utilize Computer-Aided Design (CAD) software to create technical models and engineering blueprints",
+        "Employ basic Computer-Aided Manufacturing (CAM) tools or digital interfaces to direct production machinery"
+      ]
+    },
+    {
+      "id": 8,
+      "competence": "Emotional Intelligence",
+      "descriptors": [
+        "Accept constructive user feedback and peer design critiques with resilience and an openness to learn"
+      ]
+    },
+    {
+      "id": 9,
+      "competence": "Entrepreneurship",
+      "descriptors": [
+        "Create a comprehensive business plan for a designed product detailing target market demands",
+        "Adapt designs to changing market conditions and industrial business requirements",
+        "Formulate material cutting plans to maximize material yield and lower manufacturing production costs"
+      ]
+    },
+    {
+      "id": 10,
+      "competence": "Environmental Sustainability",
+      "descriptors": [
+        "Care for the environment by selecting sustainable, eco-friendly, or upcycled materials",
+        "Incorporate life-cycle design strategies that minimize raw material scrap and maximize part recycling"
+      ]
+    },
+    {
+      "id": 11,
+      "competence": "Financial Education",
+      "descriptors": [
+        "Formulate detailed cost estimate bills of materials (BOM) tracking gross production metrics",
+        "Exhabit personal financial management by comparing prototype development expenses against target profit margins",
+        "Demonstrate understanding of risk management regarding equipment asset investments vs. market returns"
+      ]
+    },
+    {
+      "id": 12,
+      "competence": "Problem Solving",
+      "descriptors": [
+        "Isolate and debug physical defects or alignment issues during mechanical assembly steps",
+        "Apply systematic fabrication and diagnostic strategies to resolve product design failure points"
+      ]
+    }
+  ]
+}
+
+
+{
+  "2024_cbc_subject": "Home Management",
+  "framework_standard": "Zambia Education Curriculum Framework 2024",
+  "key_competencies": [
+    {
+      "id": 1,
+      "competence": "Analytical Thinking",
+      "descriptors": [
+        "Analyse family nutritional requirements across different stages of lifecycle development",
+        "Analyse workflow patterns in household arrangements to optimize time and energy conservation",
+        "Examine the functions and structural layout of domestic institutional environments",
+        "Evaluate household maintenance methods to identify factors that hinder optimal living standards"
+      ]
+    },
+    {
+      "id": 2,
+      "competence": "Citizenship",
+      "descriptors": [
+        "Adhere to public health guidelines and domestic safety codes during food handling and sanitation",
+        "Apply knowledge of consumer rights, duties, and responsibilities in the local marketplace",
+        "Promote social justice by advocating for equitable distribution of labor and resources within the home"
+      ]
+    },
+    {
+      "id": 3,
+      "competence": "Collaboration",
+      "descriptors": [
+        "Cooperate systematically in domestic production teams during large-scale hospitality or catering tasks",
+        "Build stronger relationships within group frameworks to achieve common household or community goals"
+      ]
+    },
+    {
+      "id": 4,
+      "competence": "Communication",
+      "descriptors": [
+        "Present hospitality, floor layout plans, or family health initiatives clearly using visual aids and reports",
+        "Demonstrate interactive communication skills when handling customer complaints or managing family roles"
+      ]
+    },
+    {
+      "id": 5,
+      "competence": "Creativity and Innovation",
+      "descriptors": [
+        "Create innovative meal plans, recipes, and interior designs utilizing localized low-cost resources",
+        "Adapt home textile patterns or soft furnishings creatively to meet evolving interior decor styles"
+      ]
+    },
+    {
+      "id": 6,
+      "competence": "Critical Thinking",
+      "descriptors": [
+        "Evaluate the trade-offs between bulk purchasing, nutritional yields, and storage limits",
+        "Critique household resource allocations to design effective solutions for structural budget deficits"
+      ]
+    },
+    {
+      "id": 7,
+      "competence": "Digital",
+      "descriptors": [
+        "Utilize smart home applications or electronic inventory tracking configurations safely",
+        "Employ digital financial tools and online registry interfaces to process domestic transactions or look up verified resources"
+      ]
+    },
+    {
+      "id": 8,
+      "competence": "Emotional Intelligence",
+      "descriptors": [
+        "Apply counseling, conflict resolution, and empathy markers to manage challenging family relationship dynamics",
+        "Demonstrate customer-centric composure and patience when managing hospitality or institutional guest services"
+      ]
+    },
+    {
+      "id": 9,
+      "competence": "Entrepreneurship",
+      "descriptors": [
+        "Create a detailed business plan for a cottage industry or small-scale catering venture",
+        "Adapt home catering, cleaning services, or tailored crafts to changing local business environments"
+      ]
+    },
+    {
+      "id": 10,
+      "competence": "Environmental Sustainability",
+      "descriptors": [
+        "Care for the environment by practicing safe separation, reuse, and processing of organic and inorganic household waste",
+        "Implement energy-efficient cooking and laundry methods to save water, wood fuel, or electrical utility power"
+      ]
+    },
+    {
+      "id": 11,
+      "competence": "Financial Education",
+      "descriptors": [
+        "Exhibit personal financial management by designing balanced family budgets based on available income parameters",
+        "Practise different ways of saving money within the household context to build secure safety margins",
+        "Show the importance of financial risk management when purchasing insurance or heavy household assets"
+      ]
+    },
+    {
+      "id": 12,
+      "competence": "Problem Solving",
+      "descriptors": [
+        "Isolate and resolve critical domestic emergency scenarios like structural food spoilage, stain outbreaks, or safety hazards",
+        "Design recovery steps or alternative solutions to counter sudden household budget changes or resource constraints"
+      ]
+    }
+  ]
+}
+
+
+{
+  "2024_cbc_subject": "English",
+  "framework_standard": "Zambia Education Curriculum Framework 2024",
+  "key_competencies": [
+    {
+      "competence": "Analytical Thinking",
+      "descriptors": [
+        "Grasp and breakdown information and effectively share with others",
+        "Break down problem",
+        "Test hypothesis",
+        "Apply SWOT analysis",
+        "Evaluate solution"
+      ]
+    },
+    {
+      "competence": "Citizenship",
+      "descriptors": [
+        "Display orderliness in one’s actions",
+        "Analyse the impact of policy decisions on prevailing conditions in the community",
+        "Resolve conflict and build consensus in a group",
+        "Prepare for further education, career opportunities, and global citizenship"
+      ]
+    },
+    {
+      "competence": "Collaboration",
+      "descriptors": [
+        "Respect the views of group members while working together",
+        "Listen to other group members and make meaningful contribution to a given task"
+      ]
+    },
+    {
+      "competence": "Communication",
+      "descriptors": [
+        "Use appropriate language (verbal and non-verbal) in different situations",
+        "Apply good listening, speaking, reading, and writing skills",
+        "Express oneself using different media and symbols",
+        "Effectively share one's thoughts and emotions and understand others",
+        "Express oneself (spoken and written) clearly and effectively",
+        "Manage one's emotions",
+        "Speak effectively in public",
+        "Ask for feedback"
+      ]
+    },
+    {
+      "competence": "Creativity and Innovation",
+      "descriptors": [
+        "Organise information and ideas",
+        "Justify one's reasoning and procedures",
+        "Ask thoughtful questions",
+        "Understand connections between seemingly unrelated subject matter"
+      ]
+    },
+    {
+      "competence": "Critical Thinking",
+      "descriptors": [
+        "Solve complex problems",
+        "Analyse texts, to improve the ability to understand",
+        "Ensure opinions are based on facts",
+        "Become more open minded towards different views",
+        "Participate in debates and discussions on global issues"
+      ]
+    },
+    {
+      "competence": "Digital Literacy",
+      "descriptors": [
+        "Analyse and synthesise complex digital information",
+        "Communicate responsibly using social media"
+      ]
+    }
+  ]
+}
+
+
+
+{
+  "2024_cbc_subject": "Biology",
+  "framework_standard": "Zambia Education Curriculum Framework 2024",
+  "key_competencies": [
+    {
+      "id": 1,
+      "competence": "Analytical Thinking",
+      "descriptors": [
+        "Identify patterns",
+        "Compile data, create mental images and address issues",
+        "Evaluate solutions"
+      ]
+    },
+    {
+      "id": 2,
+      "competence": "Communication",
+      "descriptors": [
+        "Use mathematical/scientific language in different situations",
+        "Express oneself using different media and symbols",
+        "Ask for feedback"
+      ]
+    },
+    {
+      "id": 3,
+      "competence": "Creativity and Innovation",
+      "descriptors": [
+        "Explore the objects around them",
+        "Show creativity and innovativeness",
+        "Explore areas of interest"
+      ]
+    },
+    {
+      "id": 4,
+      "competence": "Collaboration",
+      "descriptors": [
+        "Solving puzzle in groups",
+        "Play with peers to build relationships",
+        "Participate in and express themselves through play activities"
+      ]
+    },
+    {
+      "id": 5,
+      "competence": "Critical Thinking",
+      "descriptors": [
+        "Ask and answer simple questions",
+        "Classify objects according to their attributes",
+        "Manipulate different objects",
+        "Solve simple problems in life",
+        "Match different things according attributes",
+        "Arrange objects according to attributes",
+        "Compare similarities or differences between objects",
+        "Explore the environment",
+        "Differentiate good from bad",
+        "Recognize and name items in the environment"
+      ]
+    },
+    {
+      "id": 6,
+      "competence": "Environmental Sustainability",
+      "descriptors": [
+        "Dispose trash in the designated place",
+        "Adhere to best practices in environmental management",
+        "Identify a clean environment",
+        "Identify types of waste in local environment"
+      ]
+    },
+    {
+      "id": 7,
+      "competence": "Problem Solving",
+      "descriptors": [
+        "Make connections/link with the inner world or social environment",
+        "Use numeracy patterns and relations to solve problems",
+        "Manipulate numbers, shapes and symbols to complete a task"
+      ]
+    }
+  ]
+}
+
+
+
+{
+  "2024_cbc_subject": "Physics",
+  "framework_standard": "Zambia Education Curriculum Framework 2024",
+  "key_competencies": [
+    {
+      "competence": "Analytical Thinking",
+      "descriptors": [
+        "Identify patterns",
+        "Compile data, create mental images and address issues",
+        "Evaluate solutions"
+      ]
+    },
+    {
+      "competence": "Collaboration",
+      "descriptors": [
+        "Solving puzzle in groups",
+        "Play with peers to build relationships",
+        "Participate in and express themselves through play activities"
+      ]
+    },
+    {
+      "competence": "Communication",
+      "descriptors": [
+        "Use mathematical/scientific language in different situations",
+        "Express oneself using different media and symbols",
+        "Ask for feedback"
+      ]
+    },
+    {
+      "competence": "Critical Thinking",
+      "descriptors": [
+        "Ask and answer simple questions",
+        "Classify objects according to their attributes",
+        "Manipulate different objects",
+        "Solve simple problems in life",
+        "Match different things according attributes",
+        "Arrange objects according to attributes",
+        "Compare similarities or differences between objects",
+        "Explore the environment",
+        "Differentiate good from bad",
+        "Recognize and name items in the environment"
+      ]
+    },
+    {
+      "competence": "Environmental Sustainability",
+      "descriptors": [
+        "Dispose trash in the designated place.",
+        "Adhere to best practices in environmental management.",
+        "Identify a clean environment.",
+        "Identify types of waste in local environment"
+      ]
+    },
+    {
+      "competence": "Problem Solving",
+      "descriptors": [
+        "Make connections/link with the inner world or social environment",
+        "Use numeracy patterns and relations to solve problems",
+        "Manipulate numbers, shapes and symbols to complete a task"
+      ]
+    }
+  ]
+}
+
+{
+  "2024_cbc_subject": "Mathematics",
+  "grade_span": "Form 1-4",
+  "framework_standard": "Zambia Education Curriculum Framework 2024",
+  "key_competencies": [
+    {
+      "id": 1,
+      "competence": "Analytical Thinking",
+      "descriptors": [
+        "Grasp and breakdown information and effectively share with others.",
+        "Break down a problem",
+        "Test Hypotheses",
+        "Apply SWOT analysis",
+        "Evaluate solution"
+      ]
+    },
+    {
+      "id": 2,
+      "competence": "Communication",
+      "descriptors": [
+        "Use appropriate language (verbal and non-verbal) in different situation",
+        "Apply good listening, speaking, reading and writing skills",
+        "Express oneself using different media and symbols"
+      ]
+    },
+    {
+      "id": 3,
+      "competence": "Creativity and Innovation",
+      "descriptors": [
+        "Undertake a project",
+        "Organize information and ideas",
+        "Justify one's reasoning and procedures",
+        "Ask thoughtful questions",
+        "Understand connections between seemingly unrelated subject matter",
+        "Generate ideas, possibilities and actions from existing ones.",
+        "Express one's ideas through life experiences",
+        "Recycle waste material to create new value",
+        "Use alternative processes to understand topics",
+        "Re-define problems and create new solutions"
+      ]
+    },
+    {
+      "id": 4,
+      "competence": "Collaboration",
+      "descriptors": [
+        "Work with others in finding solutions to daily challenges.",
+        "Respect the views of group members while working together.",
+        "Participate fully in the group towards accomplishing a given task",
+        "Listen to other group members and make meaningful contribution to a given task"
+      ]
+    },
+    {
+      "id": 5,
+      "competence": "Critical Thinking",
+      "descriptors": [
+        "Solve complex problems",
+        "Breakdown texts, to improve the ability to understand",
+        "Analyse ideas and adjust them accordingly",
+        "Establish opinions about what is right and wrong",
+        "Solve problems with innovative solutions",
+        "Deal with life challenges effectively",
+        "Ensure opinions are based on facts",
+        "Become more open minded towards different views",
+        "Make one's own decision and form own opinion Evaluate the credibility of sources of information",
+        "Collect specific information and present findings of the same.",
+        "Analyze information from various sources.",
+        "Ask the right questions.",
+        "Think about both the short and long consequences of one's action",
+        "Evaluate the credibility of sources of information.",
+        "Use case studies and real-life scenarios to solve a complex problem",
+        "Participate in debates and discussions on global issues.",
+        "Take risks with ideas."
+      ]
+    },
+    {
+      "id": 6,
+      "competence": "Digital Literacy",
+      "descriptors": [
+        "Demonstrate advanced proficiency in software tools for productivity",
+        "Set up group and conference calls, on-line meetings",
+        "Keep account record",
+        "Upload and download information",
+        "Produce graphs for data analysis",
+        "Demonstrate programming skill in at least one high-level language*",
+        "Evaluate and apply emerging technologies",
+        "Analyze and synthesize complex digital information",
+        "Exhibit ethical leadership and responsibility in digital contexts",
+        "Exhibit proficiency in using a wide range of soft- ware tools and application",
+        "Apply knowledge in coding with one or more programming languages",
+        "Work with data, through data analysis, visualization and data base management",
+        "Understand cyber security principles and practices to protect personal and organizational data",
+        "Manage digital projects by effective planning and executing",
+        "Communicate responsibly using social media",
+        "Perform successful online research."
+      ]
+    },
+    {
+      "id": 7,
+      "competence": "Entrepreneurship",
+      "descriptors": [
+        "Understand basic concepts of sources of income, saving, budgeting and investment."
+      ]
+    },
+    {
+      "id": 8,
+      "competence": "Financial Literacy",
+      "descriptors": [
+        "Understand foreign currencies",
+        "Calculate exchange rates",
+        "Set financial goals",
+        "Make a saving plan",
+        "Prepare a simple budget",
+        "Calculate interest"
+      ]
+    },
+    {
+      "id": 9,
+      "competence": "Problem Solving",
+      "descriptors": [
+        "Weigh up evidence and make appropriate decisions best on experiences and relevant learning.",
+        "Use analogies to identify similarities among objects to establish relationships among the known and unknown."
+      ]
+    }
+  ]
+}

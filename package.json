@@ -1,0 +1,47 @@
+{
+  "name": "teachertools",
+  "version": "2.0.0",
+  "private": true,
+  "description": "TeacherTools — AI teaching document platform (MERN-style: React + Node/Express + MySQL)",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,green \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "npm run dev -w server",
+    "dev:client": "npm run dev -w client",
+    "build": "npm run build -w server && npm run build -w client",
+    "build:server": "npm run build -w server",
+    "build:client": "npm run build -w client",
+    "typecheck": "npm run typecheck -w server && npm run typecheck -w client",
+    "start": "npm run start -w server",
+    "migrate": "npm run migrate -w server",
+    "seed": "npm run seed -w server",
+    "alter:google-auth": "npm run alter:google-auth -w server",
+    "alter:mail-system": "npm run alter:mail-system -w server",
+    "alter:cloud-storage": "npm run alter:cloud-storage -w server",
+    "alter:subject-uniqueness": "npm run alter:subject-uniqueness -w server",
+    "alter:kaggle": "npm run alter:kaggle -w server",
+    "seed:kaggle": "npm run seed:kaggle -w server",
+    "seed:ollama": "npm run seed:ollama -w server",
+    "ollama:tunnel": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/ollama-tunnel.ps1",
+    "ollama:tunnel:autostart": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/ollama-autostart.ps1",
+    "ollama:tunnel:autostart:remove": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/ollama-autostart.ps1 -Remove",
+    "check:ai": "npm run check:ai -w server",
+    "seed:lesson-prompts": "npm run seed:lesson-prompts -w server",
+    "alter:records": "npm run alter:records -w server",
+    "alter:lesson-input": "npm run alter:lesson-input -w server",
+    "alter:scheme-input": "npm run alter:scheme-input -w server",
+    "alter:ollama": "npm run alter:ollama -w server",
+    "alter:ai-usage-logs": "npm run alter:ai-usage-logs -w server",
+    "seed:record-prompts": "npm run seed:record-prompts -w server",
+    "prune:activity": "npm run prune:activity -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

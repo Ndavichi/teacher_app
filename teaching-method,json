@@ -1,0 +1,210 @@
+[
+  {
+    "method_id": 11,
+    "method_name": "Lecture Method",
+    "description": "Teacher presents content directly to learners with minimal interaction to cover core syllabus materials efficiently.",
+    "is_active": 1,
+    "sequence_order": 1
+  },
+  {
+    "method_id": 2,
+    "method_name": "Role Play",
+    "description": "Learners act out scenarios to demonstrate understanding of social, civic, or historical dynamics dynamically.",
+    "is_active": 1,
+    "sequence_order": 2
+  },
+  {
+    "method_id": 12,
+    "method_name": "Question and Answer",
+    "description": "Teacher poses questions to assess understanding and stimulate critical thinking or diagnostic recall during class transitions.",
+    "is_active": 1,
+    "sequence_order": 2
+  },
+  {
+    "method_id": 3,
+    "method_name": "Project-Based Learning",
+    "description": "Learners work on extended projects to develop competencies and solve complex, real-world educational challenges.",
+    "is_active": 1,
+    "sequence_order": 3
+  },
+  {
+    "method_id": 13,
+    "method_name": "Demonstration",
+    "description": "Teacher shows how to perform a task or process while explaining steps to reinforce structural learning modeling.",
+    "is_active": 1,
+    "sequence_order": 3
+  },
+  {
+    "method_id": 4,
+    "method_name": "Inquiry-Based Learning",
+    "description": "Learners investigate questions and problems through active research, data gathering, and analytical exploration.",
+    "is_active": 1,
+    "sequence_order": 4
+  },
+  {
+    "method_id": 14,
+    "method_name": "Guided Discovery",
+    "description": "Teacher guides learners to discover concepts through carefully structured activities, leading questions, and prompt scaffoldings.",
+    "is_active": 1,
+    "sequence_order": 4
+  },
+  {
+    "method_id": 5,
+    "method_name": "Cooperative Learning",
+    "description": "Structured group work with individual accountability to promote collaboration, communication, and peer support values.",
+    "is_active": 1,
+    "sequence_order": 5
+  },
+  {
+    "method_id": 15,
+    "method_name": "Drill and Practice",
+    "description": "Repetitive practice exercises to reinforce knowledge, mechanical skills, and high-precision facts processing accuracy.",
+    "is_active": 1,
+    "sequence_order": 5
+  },
+  {
+    "method_id": 6,
+    "method_name": "Discovery Learning",
+    "description": "Learners explore and discover concepts through hands-on interactions with raw operational environments.",
+    "is_active": 1,
+    "sequence_order": 6
+  },
+  {
+    "method_id": 16,
+    "method_name": "Explanation",
+    "description": "Teacher explains concepts with examples, illustrations, and clear structural models to build foundational clarity.",
+    "is_active": 1,
+    "sequence_order": 6
+  },
+  {
+    "method_id": 7,
+    "method_name": "Peer Teaching",
+    "description": "Learners teach and learn from each other, reinforcing their own understanding through student-led delivery modeling.",
+    "is_active": 1,
+    "sequence_order": 7
+  },
+  {
+    "method_id": 17,
+    "method_name": "Discussion",
+    "description": "Teacher-led whole-class discussion to explore topics, analyze arguments, and share balanced perspective markers.",
+    "is_active": 1,
+    "sequence_order": 7
+  },
+  {
+    "method_id": 8,
+    "method_name": "Experiential Learning",
+    "description": "Learning through direct experience, reflection, and conceptual analysis of real-world operational problems.",
+    "is_active": 1,
+    "sequence_order": 8
+  },
+  {
+    "method_id": 18,
+    "method_name": "Field Trip",
+    "description": "Learners visit real-world locations to observe phenomena, collect primary data, and match theory to real life.",
+    "is_active": 1,
+    "sequence_order": 8
+  },
+  {
+    "method_id": 9,
+    "method_name": "Problem-Solving",
+    "description": "Learners apply knowledge to solve real-world problems through logical algorithms, deductions, and structural strategies.",
+    "is_active": 1,
+    "sequence_order": 9
+  },
+  {
+    "method_id": 19,
+    "method_name": "Demonstration and Return Demonstration",
+    "description": "Teacher demonstrates a skill, then learners immediately demonstrate it back to verify operational mechanics and safety.",
+    "is_active": 1,
+    "sequence_order": 9
+  },
+  {
+    "method_id": 10,
+    "method_name": "Brainstorming",
+    "description": "Learners generate ideas freely in a group setting without early criticism to promote innovation and creative vision splits.",
+    "is_active": 1,
+    "sequence_order": 10
+  },
+  {
+    "method_id": 20,
+    "method_name": "Assignment Method",
+    "description": "Learners complete assigned tasks independently to consolidate content, read ahead, or practice application models.",
+    "is_active": 1,
+    "sequence_order": 10
+  },
+  {
+    "method_id": 21,
+    "method_name": "Test Method",
+    "description": "Summative or formative test assessment method used to evaluate mastery levels under timed classroom parameters.",
+    "is_active": 1,
+    "sequence_order": 99
+  }
+]
+
+
+//English Language Teaching Methodology
+
+{
+  "subject": "English Language",
+  "curriculum_standard": "Zambia 2024 Competency-Based Curriculum (CBC)",
+  "core_methodology": "Communicative Language Teaching (CLT)",
+  "methodology_foundations": {
+    "priorities": "Grammar rules combined with rules governing appropriate language use across different contexts.",
+    "skills_coverage": [
+      "Listening",
+      "Speaking",
+      "Reading",
+      "Writing"
+    ],
+    "dimensions_of_competence": [
+      "Grammatical Competence",
+      "Sociolinguistic Competence",
+      "Discourse Competence",
+      "Strategic Competence"
+    ],
+    "eclectic_embraced_approaches": [
+      "Situational Method",
+      "Cognitive Code Approach"
+    ]
+  },
+  "recommended_teaching_strategies": [
+    "Teacher Exposition",
+    "Group Work",
+    "Pair Work",
+    "Role Play",
+    "Simulation",
+    "Demonstration",
+    "Debate",
+    "Question and Answer",
+    "Elicitation",
+    "Individualised Instruction (Differentiated)",
+    "Project-Based Activity",
+    "Task-Based Activity",
+    "Technology-Enhanced Learning (TELL)"
+  ],
+  "instructional_delivery_stages": [
+    {
+      "stage": "Beginning / Introduction",
+      "focus": "Explicit instruction and rule explanation to prompt prior knowledge and promote initial participation."
+    },
+    {
+      "stage": "Development",
+      "focus": "Learners practising the target teaching point through a variety of active communicative activities."
+    },
+    {
+      "stage": "End / Exercise Phase",
+      "focus": "Learners completing independent individual activities to demonstrate accurate and appropriate language application."
+    }
+  ],
+  "assessment_framework": {
+    "approach": "Formative Assessment / Continuous Progression",
+    "components": [
+      "Listening and Speaking",
+      "Reading Comprehension",
+      "Composition Writing",
+      "Structure",
+      "Summary"
+    ]
+  }
+}
+

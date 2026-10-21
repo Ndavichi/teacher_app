@@ -1,0 +1,15 @@
+[2026-09-21T21:09:05.520Z] WARN ai model threw, trying fallback {"model":"llama-3.3-70b-or","provider":"openrouter","error":"fetch failed"}
+[2026-09-21T21:09:22.753Z] WARN ai model threw, trying fallback {"model":"qwen-2.5-7b-or","provider":"openrouter","error":"fetch failed"}
+[2026-09-21T21:09:32.979Z] WARN ai model threw, trying fallback {"model":"openrouter-free-router","provider":"openrouter","error":"fetch failed"}
+[2026-09-21T21:09:43.608Z] WARN ai model threw, trying fallback {"model":"openrouter-free","provider":"openrouter","error":"fetch failed"}
+[2026-09-22T10:38:07.766Z] ERROR Unhandled error {"message":"fetch failed","stack":"TypeError: fetch failed"}
+[2026-09-22T10:38:22.753Z] ERROR Unhandled error {"message":"fetch failed","stack":"TypeError: fetch failed"}
+[2026-09-22T22:02:01.850Z] WARN ai model returned empty content, trying fallback {"model":"openrouter-free-router","provider":"openrouter"}
+[2026-09-22T22:02:03.220Z] WARN ai model failed, trying fallback {"model":"llama-3.2-3b-free","provider":"openrouter","error":"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.2-3b-instruct"}
+[2026-09-22T22:02:04.234Z] WARN ai model failed, trying fallback {"model":"gemma-2-9b-free","provider":"openrouter","error":"No endpoints found for google/gemma-2-9b-it:free."}
+[2026-09-22T22:02:05.266Z] WARN ai model failed, trying fallback {"model":"qwen-2.5-7b-free","provider":"openrouter","error":"This model is unavailable for free. The paid version is available now - use this slug instead: qwen/qwen-2.5-7b-instruct"}
+[2026-09-23T00:49:43.936Z] WARN ai model threw, trying fallback {"model":"qwen3:4b-instruct","provider":"ollama","error":"This operation was aborted"}
+[2026-09-23T00:49:43.940Z] WARN ai fallback chain budget exhausted {"tried":1,"budgetMs":300000}
+[2026-09-23T00:57:49.987Z] WARN ai model threw, trying fallback {"model":"qwen3:4b-instruct","provider":"ollama","error":"This operation was aborted"}
+[2026-09-23T00:57:49.991Z] WARN ai fallback chain budget exhausted {"tried":1,"budgetMs":300000}
+[2026-09-23T01:29:00.981Z] WARN ai model threw, trying fallback {"model":"openrouter-free-router","provider":"openrouter","error":"fetch failed"}
